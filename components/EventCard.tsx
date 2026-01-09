@@ -29,8 +29,8 @@ export default function EventCard({title, image, slug, time, location, date}: Pr
                         <p>{date}</p>
                     </div>
                     <div>
-                        <Image src="/icons/calendar.svg" alt="calendar" width={14} height={14}/>
-                        <p>{date}</p>
+                        <Image src="/icons/clock.svg" alt="calendar" width={14} height={14}/>
+                        <p>{time}</p>
                     </div>
                 </div>
             </Link>
